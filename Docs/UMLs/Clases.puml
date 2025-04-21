@@ -1,0 +1,8 @@
+@startuml
+class Matriz {
+  - elementos: int[][]
+  + Matriz(elementos: int[][])
+  + imprimir(): void
+  + transpuesta(): Matriz
+}
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+object matrizOriginal {
+  clase = Matriz
+  elementos = [[a, b], [c, d]]
+}
+
+object matrizTranspuesta {
+  clase = Matriz
+  elementos = [[a, c], [b, d]]
+}
+
+matrizOriginal --> matrizTranspuesta : transpuesta()
+@enduml

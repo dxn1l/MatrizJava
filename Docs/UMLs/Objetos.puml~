@@ -1,0 +1,9 @@
+@startuml
+object m : Matriz
+m : elementos = int[][]
+
+object mTranspuesta : Matriz
+mTranspuesta : elementos = int[][]
+
+m --> mTranspuesta : transpuesta()
+@enduml

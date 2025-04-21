@@ -1,0 +1,29 @@
+@startuml
+start
+
+:Crear instancia de Matriz con int[][];
+note right
+Ejemplo: new Matriz(new int[][]{{1, 2}, {3, 4}});
+end note
+
+:Invocar método imprimir();
+note right
+Se imprime la matriz original:
+1 2
+3 4
+end note
+
+:Invocar método transpuesta();
+note right
+Se calcula una nueva Matriz con la transpuesta:
+1 3
+2 4
+end note
+
+:Invocar imprimir() en la transpuesta;
+note right
+Se imprime la matriz transpuesta.
+end note
+
+stop
+@enduml

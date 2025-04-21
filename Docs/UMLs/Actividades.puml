@@ -1,0 +1,24 @@
+@startuml
+start
+
+:Inicializar objeto Matriz;
+:Almacenar matriz bidimensional;
+
+:Invocar método imprimir();
+note right
+Imprime cada fila de la matriz
+en una línea separada,
+con espacios entre elementos.
+end note
+
+:Invocar método transpuesta();
+note right
+Crea y retorna un nuevo
+objeto Matriz con los
+elementos transpuestos.
+end note
+
+:Imprimir la matriz transpuesta;
+
+stop
+@enduml
