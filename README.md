@@ -4,6 +4,13 @@ Este proyecto implementa una clase llamada `Matriz` en Java, diseñada para repr
 
 ---
 
+##  Link al repositorio de GitHub
+
+[https://github.com/maquina-turing/MaquinaTuring](https://github.com/dxn1l/MatrizJava)
+
+
+---
+
 ## 📁 Estructura del proyecto
 
 El proyecto se estructura de la siguiente manera:
